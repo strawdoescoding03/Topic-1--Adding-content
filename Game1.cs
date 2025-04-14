@@ -56,6 +56,7 @@ namespace Topic_1__Adding_content
             base.Update(gameTime);
         }
 
+
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.DodgerBlue);
