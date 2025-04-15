@@ -9,7 +9,8 @@ namespace Topic_1__Adding_content
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
-        Texture2D dinoTexture, steveFishTexture, sandTexture;
+        Texture2D dinoTexture, steveFishTexture, sandTexture, seaweedTextureOne,
+            seaweedTextureTwo, cliffTexture;
 
         public Game1()
         {
@@ -41,7 +42,13 @@ namespace Topic_1__Adding_content
 
             steveFishTexture = Content.Load<Texture2D>("steve");
 
-            sandTexture = Content.Load<Texture2D>("sand");
+            sandTexture = Content.Load<Texture2D>("sand_real");
+
+            seaweedTextureOne = Content.Load<Texture2D>("seaweedOne");
+
+            seaweedTextureTwo = Content.Load<Texture2D>("seaweedTwo");
+
+            cliffTexture = Content.Load<Texture2D>("cliffSuper");
 
             // TODO: use this.Content to load your game content here
         }
@@ -63,12 +70,22 @@ namespace Topic_1__Adding_content
             
             _spriteBatch.Begin();
 
-            _spriteBatch.Draw(sandTexture, new Vector2(0, 300), Color.Wheat);
+
+            _spriteBatch.Draw(cliffTexture, new Vector2(0, 50), Color.White);
+
+            _spriteBatch.Draw(sandTexture, new Vector2(0, 410), Color.Wheat);
             
-            _spriteBatch.Draw(steveFishTexture, new Vector2(300, 200), Color.White);
+            _spriteBatch.Draw(steveFishTexture, new Vector2(300, 300), Color.White);
 
+            _spriteBatch.Draw(seaweedTextureTwo, new Vector2(15, 305), Color.White);
 
+            _spriteBatch.Draw(seaweedTextureOne, new Vector2(25,325), Color.White);
 
+            _spriteBatch.Draw(seaweedTextureOne, new Vector2(600, 325), Color.White);
+
+            _spriteBatch.Draw(seaweedTextureOne, new Vector2(450, 250), Color.White);
+
+            _spriteBatch.Draw(seaweedTextureTwo, new Vector2(585, 305), Color.White);
 
 
 
