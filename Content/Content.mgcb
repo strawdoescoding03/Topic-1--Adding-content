@@ -13,6 +13,18 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin bubble.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:bubble.png
+
 #begin cliffSuper.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -25,7 +37,7 @@
 /processorParam:TextureFormat=Color
 /build:cliffSuper.png
 
-#begin cliffTwo.png
+#begin cliffTwo (1).png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -35,7 +47,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:cliffTwo.png
+/build:cliffTwo (1).png;cliffTwo.png
 
 #begin dino.png
 /importer:TextureImporter
